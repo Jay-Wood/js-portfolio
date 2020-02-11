@@ -52,10 +52,10 @@
     transition: all 1.0s ease-out; }
     .menu-headshot.show {
       transform: translate3d(0, 0, 0); }
-    .menu-headshot .headshot {
+    .menu-headshot .portrait {
       width: 250px;
       height: 250px;
-      background: url("../dist/img/drive-thru.jpg");
+      background: url("../img/headshot.jpg");
       border-radius: 50%;
       border: solid 5px #77c3ec; }
 
