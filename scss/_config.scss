@@ -1,0 +1,8 @@
+@mixin easeOut {
+    transition: all 1.0s ease-out;
+}
+
+$primary-color: #444;
+$secondary-color: #77c3ec;
+$show-main-img: true;
+$main-img: url(../img/beach.jpg);
