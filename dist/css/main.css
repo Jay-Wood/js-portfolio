@@ -94,6 +94,39 @@
 .nav-item:nth-child(5) {
   transition-delay: 0.5s; }
 
+@media screen and (max-width: 768px) {
+  main {
+    align-items: center;
+    text-align: center; }
+    main .big-heading {
+      line-height: 1;
+      margin-bottom: 1rem; }
+  ul.menu-nav,
+  div.menu-headshot {
+    float: none;
+    width: 100%;
+    min-height: 0; }
+    ul.menu-nav.show,
+    div.menu-headshot.show {
+      transform: translate3d(0, 0, 0); }
+  .menu-nav {
+    height: 75vh;
+    transform: translate3d(-100%, 0, 0);
+    font-size: 1.5rem; }
+  .menu-headshot {
+    height: 25%;
+    transform: translate3d(100%, 0, 0); }
+    .menu-headshot .portrait {
+      background: url("../img/headshot_cropped_resize.jpg");
+      background-size: cover;
+      background-position: center;
+      width: 150px;
+      height: 150px; } }
+
+@media screen and (max-width: 500px) {
+  main#home h1 {
+    margin-top: 10vh; } }
+
 * {
   box-sizing: border-box; }
 
